@@ -10,11 +10,9 @@ int main(int argc, char* argv[])
 	int a, b, c;
 	char operator;
 	
-<<<<<<< HEAD
+
 	printf("Insert a your expression!!");
-=======
-	printf("Please enter a expression");
->>>>>>> origin/develop
+
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch (operator)
