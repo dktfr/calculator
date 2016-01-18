@@ -10,11 +10,9 @@ int main(int argc, char* argv[])
 	int a, b, c;
 	char operator;
 	
-<<<<<<< HEAD
+
 	printf("Insert a your expression!!");
-=======
-	printf("Please enter a expression");
->>>>>>> origin/develop
+
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch (operator)
@@ -41,7 +39,7 @@ int main(int argc, char* argv[])
 int add(int a, int b)
 {
 	//TODO implementation
-	return 0;
+	return a + b;
 }
  
 int sub(int a, int b)
@@ -59,5 +57,7 @@ int multi(int a, int b)
 int div(int a, int b)
 {
 	//TODO implementation
+
 	return a/b;
 }
+
